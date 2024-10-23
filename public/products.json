@@ -1,0 +1,120 @@
+[
+    {
+      "id":1,
+      "name": "The Gourmet Bistro",
+      "location": "1234 Elm Street, New York, NY",
+      "cuisine": "French",
+      "rating": 4.8,
+      "price": "55",
+      "contact": {
+        "phone": "555-1234",
+        "email": "info@gourmetbistro.com",
+        "website": "www.gourmetbistro.com"
+      }
+    },
+    {
+      "id":2,
+      "name": "Sushi Zen",
+      "location": "567 Oak Avenue, San Francisco, CA",
+      "cuisine": "Japanese",
+      "rating": 4.7,
+      "price": "14",
+      "contact": {
+        "phone": "555-5678",
+        "email": "contact@sushizen.com",
+        "website": "www.sushizen.com"
+      }
+    },
+    {
+      "id":3,
+      "name": "Pasta Palace",
+      "location": "4321 Maple Road, Chicago, IL",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "price": "89",
+      "contact": {
+        "phone": "555-4321",
+        "email": "reservations@pastapalace.com",
+        "website": "www.pastapalace.com"
+      }
+    },
+    {
+      "id":4,
+      "name": "Taco Fiesta",
+      "location": "8765 Pine Street, Austin, TX",
+      "cuisine": "Mexican",
+      "rating": 4.6,
+      "price": "51",
+      "contact": {
+        "phone": "555-8765",
+        "email": "fiesta@tacofiesta.com",
+        "website": "www.tacofiesta.com"
+      }
+    },
+    {
+      "id":5,
+      "name": "Burger Town",
+      "location": "3456 Cedar Lane, Los Angeles, CA",
+      "cuisine": "American",
+      "rating": 4.4,
+      "price": "109",
+      "contact": {
+        "phone": "555-3456",
+        "email": "support@burgertown.com",
+        "website": "www.burgertown.com"
+      }
+    },
+    {
+      "id":6,
+      "name": "Curry Express",
+      "location": "789 Birch Boulevard, Seattle, WA",
+      "cuisine": "Indian",
+      "rating": 4.7,
+      "price": "203",
+      "contact": {
+        "phone": "555-7890",
+        "email": "info@curryexpress.com",
+        "website": "www.curryexpress.com"
+      }
+    },
+    {
+      "id":7,
+      "name": "Vegan Delights",
+      "location": "654 Spruce Street, Portland, OR",
+      "cuisine": "Vegan",
+      "rating": 4.8,
+      "price": "97",
+      "contact": {
+        "phone": "555-6543",
+        "email": "hello@vegandelights.com",
+        "website": "www.vegandelights.com"
+      }
+    },
+    {
+      "id":8,
+      "name": "Steakhouse Prime",
+      "location": "2222 River Road, Dallas, TX",
+      "cuisine": "Steakhouse",
+      "rating": 4.9,
+      "price": "905",
+      "contact": {
+        "phone": "555-2222",
+        "email": "reservations@steakhouseprime.com",
+        "website": "www.steakhouseprime.com"
+      }
+    },
+    {
+      "id":9,
+      "name": "The Mediterranean Grill",
+      "location": "908 Willow Avenue, Miami, FL",
+      "cuisine": "Mediterranean",
+      "rating": 4.7,
+      "price": "78",
+      "contact": {
+        "phone": "555-9080",
+        "email": "info@mediterraneangrill.com",
+        "website": "www.mediterraneangrill.com"
+      }
+    }
+  ]
+  
