@@ -9,12 +9,12 @@ function App() {
   const [products, setProducts] = useState([]);
   const [price, setPrice] = useState(700)
 
-  // const handleAddPrice = (p) => {
-  //   setPrice(price + p)
-  // }
-  // const handleDecreasePrice = (p) => {
-  //   setPrice(price - p)
-  // }
+  const handleDeleteProduct = (id) => {
+    const currentProduct = products.find(product => product.id === id)
+    const newCartProduct = products.filter(product => product.id !== id);
+    setProducts(newCartProduct);
+    setPrice(price - parseFloat(currentProduct.price))
+  }
 
   const handleBuyButton = (product) => {
     const findProduct = products.find(p => p.id === product.id)
@@ -34,7 +34,9 @@ function App() {
       <Header products={products} price={price}></Header>
       <div className='flex gap-4 max-w-7xl mx-auto mt-9'>
         <Products handleBuyButton={handleBuyButton}></Products>
-        <CartContainer></CartContainer>
+        <CartContainer
+          handleDeleteProduct={handleDeleteProduct}
+          products={products}></CartContainer>
       </div>
     </>
   )

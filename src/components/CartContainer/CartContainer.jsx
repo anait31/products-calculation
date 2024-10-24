@@ -3,7 +3,7 @@ import { useState } from "react";
 import Details from "../Details/Details";
 import './CartContainer.css'
 
-const CartContainer = () => {
+const CartContainer = ({products, handleDeleteProduct}) => {
     const [isActive, setIsActive] = useState({
         cart: true,
         details: 'active'
@@ -31,7 +31,9 @@ const CartContainer = () => {
                 <button className={`${isActive.cart ? '' : 'btn-active'}`} onClick={() => handleActiveCart('details')}>Details</button>
             </div>
             {
-                isActive.cart ? <Cart></Cart> : <Details></Details>
+                isActive.cart ? <Cart 
+                handleDeleteProduct={handleDeleteProduct}
+                products={products}></Cart> : <Details></Details>
             }
         </div>
     );
